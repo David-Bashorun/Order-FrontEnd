@@ -1,8 +1,8 @@
-import React from 'react'
+
 import location from "../assets/images/location.png"
 import cart from "../assets/images/cart.png"
 import arrow from "../assets/images/arrow.png"
-import logo from "../assets/images/logo.png"
+
 
 
 const Promo = () => {
