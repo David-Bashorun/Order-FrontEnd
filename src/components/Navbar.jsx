@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/images/Logo.png"
+import logo from "../assets/images/logo.png"
 import guy from "../assets/images/guy.png"
 import { Link } from 'react-router-dom'
 import SignIn from '../pages/SignIn'
