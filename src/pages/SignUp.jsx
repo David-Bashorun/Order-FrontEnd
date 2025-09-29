@@ -22,7 +22,7 @@ const SignUp = () => {
     setMessage(""); // clear old messages
     setSuccess(false);
     try {
-      const res = await axios.post("http://localhost:4000/api/signup", formData);
+      const res = await axios.post("https://order-backend6700.onrender.com/api/signup", formData);
       console.log(res.data);
       
       setMessage(res.data.message || "Signup successful");

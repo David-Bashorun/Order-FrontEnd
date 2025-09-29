@@ -239,7 +239,7 @@ const Checkout = () => {
 
 
     try {
-      const res = await fetch("http://localhost:4000/api/orderFood", {
+      const res = await fetch("https://order-backend6700.onrender.com/api/orderFood", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(order),
@@ -254,10 +254,10 @@ const Checkout = () => {
       }
 
       clearCart(); // ✅ this clears the cart
-      navigate("/dashboard"); // ✅ then navigate
+      navigate("/payment"); // ✅ then navigate
     } catch (err) {
       console.error("Order error:", err);
-      navigate("/dashboard"); // still navigate
+      navigate("/payment"); // still navigate
     }
 
 

@@ -13,7 +13,7 @@ const Menu = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/meals");
+        const res = await fetch("https://order-backend6700.onrender.com/api/meals");
         const data = await res.json();
         setMeals(data.meals); // adjust according to your backend response
       } catch (error) {

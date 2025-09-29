@@ -11,6 +11,8 @@ import Admin from "./pages/Admin.jsx"
 import Checkout from "./pages/Checkout.jsx"
 import { FavoritesProvider } from "./context/FavoritesContext.jsx"
 import FavoritesPage from "./pages/FavoritesPage.jsx"
+import Payment from "./pages/Paystack.jsx"
+import Verification from "./pages/Verification.jsx"
 
 
 const App = () => {
@@ -29,6 +31,8 @@ const App = () => {
               <Route path="/admin" element={<Admin />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/favorites" element={<FavoritesPage />} />
+              <Route path="/payment" element={<Payment />} />
+              {/* <Route path="/verify" element={<Verification />}/> */}
             </Routes>
           </Router>
         </FavoritesProvider>

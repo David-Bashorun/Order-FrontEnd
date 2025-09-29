@@ -36,7 +36,7 @@ const Dashboard = () => {
                 }
 
                 // ✅ 1. Fetch user WITH token
-                const userRes = await fetch(`http://localhost:4000/api/fetchuser`, {
+                const userRes = await fetch(`https://order-backend6700.onrender.com/api/fetchuser`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },
@@ -60,7 +60,7 @@ const Dashboard = () => {
                 }
 
                 // ✅ 2. Fetch orders WITH token
-                const orderRes = await fetch(`http://localhost:4000/api/fetchorders`, {
+                const orderRes = await fetch(`https://order-backend6700.onrender.com/api/fetchorders`, {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

@@ -12,13 +12,13 @@ const Hero = () => {
             <h4 className='text-[16px] font-normal'>Order Restaurant food,takeaway and groceries</h4>
             <h1 className='text-[54px] font-bold leading-15'>Feast Your Senses, <br /><span className='text-[#FC8A06]'>Fast and Fresh</span></h1>
             <h4 className='text-[13px] font-normal'>Enter a postcode to see what we deliver</h4>
-            <div class="flex w-[320px] bg-white border-1 border-[#bebebe] rounded-full overflow-hidden">
+            <div className="flex w-[320px] bg-white border-1 border-[#bebebe] rounded-full overflow-hidden">
               <input
                 type="text"
                 placeholder="e.g. EC4R 3TE"
-                class="flex-1 px-4 py-3 text-sm outline-none"
+                className="flex-1 px-4 py-3 text-sm outline-none"
               />
-              <button class="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm px-10 py-2 rounded-full">
+              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm px-10 py-2 rounded-full">
                 Search
               </button>
             </div>

@@ -3,7 +3,7 @@ import HeartButton from "./HeartButton";
 
 const MealCard = ({ meal, addToCart }) => {
   // ensure meal has `id` (if your backend uses _id, pass id = _id when mapping)
-  const imageURL = `http://localhost:4000/${meal.image.replace(/\\/g, "/")}`;
+  const imageURL = `https://order-backend6700.onrender.com/${meal.image.replace(/\\/g, "/")}`;
 
   return (
     <div className="border rounded-lg p-4 shadow-md bg-white flex flex-col justify-between">
