@@ -1,7 +1,7 @@
 import React from 'react'
-import pizzagyal from "../assets/images/pizzagyal.png"
-import gingergyal from "../assets/images/gingergyal.png"
-import logo from "../assets/images/logo.png"
+import pizzagyal from "../assets/images/pizzagyal.png";
+import gingergyal from "../assets/images/gingergyal.png";
+import logo from "../assets/images/logo.png";
 
 const Hero = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import FoodCard from './FoodCard'
+import FoodCard from './FoodCard';
 
 const Deals = () => {
   return (

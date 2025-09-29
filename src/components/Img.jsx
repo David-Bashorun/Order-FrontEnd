@@ -1,5 +1,5 @@
 import React from 'react'
-import Lover from "../assets/images/Lover.png"
+import Lover from "../assets/images/Lover.png";
 
 const Img = () => {
   return (

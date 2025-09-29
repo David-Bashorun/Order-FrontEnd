@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaInstagram, FaTiktok, FaSnapchatGhost } from "react-icons/fa";
-import logus from '../assets/images/logus.png'
-import Vector from '../assets/images/Vector.png'
+import logus from '../assets/images/logus.png';
+import Vector from '../assets/images/Vector.png';
 
 const Footer = () => {
   return (

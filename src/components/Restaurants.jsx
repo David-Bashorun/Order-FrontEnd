@@ -1,11 +1,11 @@
 import React from 'react'
-import Company from "../components/Company"
-import Mags from "../assets/images/Mags.png"
-import Nigga from "../assets/images/Nigga.png"
-import Papa from "../assets/images/Papa.png"
-import Paradise from "../assets/images/Paradise.png"
-import Sharwarma from "../assets/images/Sharwarma.png"
-import Tex from "../assets/images/Tex.png"
+import Company from "../components/Company";
+import Mags from "../assets/images/Mags.png";
+import Nigga from "../assets/images/Nigga.png";
+import Papa from "../assets/images/Papa.png";
+import Paradise from "../assets/images/Paradise.png";
+import Sharwarma from "../assets/images/Sharwarma.png";
+import Tex from "../assets/images/Tex.png";
 
 const Restaurants = () => {
   return (

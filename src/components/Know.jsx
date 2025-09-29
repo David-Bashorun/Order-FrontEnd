@@ -1,8 +1,8 @@
 import React from 'react'
-import Progress from '../components/Progress'
-import serve from '../assets/images/serve.png'
-import drink from '../assets/images/drink.png'
-import fries from '../assets/images/fries.png'
+import Progress from '../components/Progress';
+import serve from '../assets/images/serve.png';
+import drink from '../assets/images/drink.png';
+import fries from '../assets/images/fries.png';
 
 const Know = () => {
   return (

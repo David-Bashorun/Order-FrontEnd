@@ -1,7 +1,7 @@
 
-import location from "../assets/images/location.png"
-import cart from "../assets/images/cart.png"
-import arrow from "../assets/images/arrow.png"
+import location from "../assets/images/location.png";
+import cart from "../assets/images/cart.png";
+import arrow from "../assets/images/arrow.png";
 
 
 

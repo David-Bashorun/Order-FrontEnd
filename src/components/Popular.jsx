@@ -1,11 +1,11 @@
 import React from 'react'
-import Foodie from '../components/Foodie'
-import burger from "../assets/images/burger.png"
-import salad from "../assets/images/Americansaviour.png"
-import pasta from "../assets/images/pasta.png"
-import pizza from "../assets/images/pizza.png"
-import brekkie from "../assets/images/brekkie.png"
-import soup from "../assets/images/soup.png"
+import Foodie from '../components/Foodie';
+import burger from "../assets/images/burger.png";
+import salad from "../assets/images/Americansaviour.png";
+import pasta from "../assets/images/pasta.png";
+import pizza from "../assets/images/pizza.png";
+import brekkie from "../assets/images/brekkie.png";
+import soup from "../assets/images/soup.png";
 
 const Popular = () => {
   return (
